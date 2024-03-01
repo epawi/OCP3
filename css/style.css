@@ -1,8 +1,4 @@
 /****** General ***********/
-* {
-    font-family: 'Raleway', sans-serif;
-}
-
 :root {
     --main-color: #0065FC;
     --main-bg-color: #F2F2F2;
@@ -11,6 +7,17 @@
 
 .fa-solid {
     color: var(--main-color);
+}
+
+h1,
+h2,
+h3,
+p,
+a {
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: auto;
+    font-style: normal;
 }
 
 body {
@@ -25,6 +32,10 @@ body {
     max-width: 1440px;
     padding: 0 50px;
     box-sizing: border-box;
+}
+
+h1{
+    font-size: 1.5rem;
 }
 
 a {
@@ -71,8 +82,8 @@ a {
 
 .logo {
     width: 70px;
-    height: auto;   
-    padding: 0; 
+    height: auto;
+    padding: 0;
     margin: 0;
 }
 
@@ -83,7 +94,7 @@ a {
     color: black;
     padding-bottom: 40px;
 }
-  
+
 .navigation ul li {
     display: inline-block;
     margin-right: 20px;
@@ -110,6 +121,7 @@ a {
     transform: scaleX(1);
 }
 
+/****** Zone de recherche ***********/
 
 
 /****** Hebergements And Populaires ***********/
