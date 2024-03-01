@@ -9,21 +9,14 @@
     color: var(--main-color);
 }
 
-h1,
-h2,
-h3,
-p,
-a {
-    font-family: "Raleway", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: auto;
-    font-style: normal;
-}
-
 body {
     display: flex;
     justify-content: center;
     margin: 0;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: auto;
+    font-style: normal;
 }
 
 .grid-container {
@@ -122,7 +115,52 @@ a {
 }
 
 /****** Zone de recherche ***********/
+h1{
+    margin-bottom: 5px;
+}
 
+p{
+    margin-top: 0;
+    margin-bottom: 40px;
+}
+
+.barre_de_recherche {
+    border: 1px var(--main-bg-color) solid;
+    border-radius: 20px;
+    width: 50%;
+    position: relative; 
+    }
+
+.barre_de_recherche form {
+    display: flex;
+    align-items: center;
+}
+
+.cadre_de_recherche {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+}
+
+.cadre_de_recherche .icone_loc {
+    margin-right: 10px;
+}
+
+.cadre_de_recherche input {
+    border: none;
+    background: white;
+    outline: none;
+    width: calc(100% - 24px);
+    padding-left: 60px;
+}
+
+.barre_de_recherche button {
+    background-color: var(--main-color);
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    color: white;
+}
 
 /****** Hebergements And Populaires ***********/
 .hebergements-and-populaires {
