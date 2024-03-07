@@ -119,7 +119,11 @@ h1 {
   margin-bottom: 5px;
 }
 
-p {
+h2 {
+  font-size: 1.1rem;
+}
+
+.recherche p {
   margin-top: 0;
   margin-bottom: 35px;
 }
@@ -247,7 +251,69 @@ p {
 
 /****** Hebergements ***********/
 .hebergements {
+  display: flex;
   width: 65%;
+  flex-wrap: wrap;
+}
+
+.hebergements-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hebergements-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.hebergements-cards .card {
+  display: flex;
+  flex-direction: column;
+  margin-top: 33px;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 15rem;
+}
+
+.hebergements-cards img {
+  width: 100%;
+  object-fit: cover;
+  height: 125px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.hebergements-cards .card-content {
+  width: 67%;
+  padding-left: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+
+.hebergements-cards .card-title {
+  margin-top: 10px;
+  margin-bottom: 4px;
+  white-space: nowrap;
+}
+
+.hebergements-cards .card-subtitle {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.hebergements-cards .card-rating {
+  margin-bottom: 5px;
+}
+
+.afficher_plus {
+  font-size: 1.1rem;
+  font-weight: bold;
+  margin-top: 30px;
+  margin-left: 10px;
 }
 
 /****** Populaires ***********/
@@ -293,46 +359,4 @@ p {
 
 .populaires-cards .card-rating {
   margin-bottom: 5px;
-}
-
-/* Le code ci-dessous correspond à la version responsive uniquement */
-
-/****** Media queries ***********/
-/* Medium devices (tablets, less/equal than 1024px) */
-@media (max-width: 1024px) {
-  .hebergements-and-populaires {
-    flex-direction: column;
-  }
-
-  .hebergements {
-    width: 100%;
-  }
-
-  .populaires {
-    width: 100%;
-    margin-top: 50px;
-  }
-
-  .populaires-cards {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-  }
-
-  .populaires-cards a {
-    width: 30%;
-  }
-
-  .populaires-cards .card-title {
-    font-size: 14px;
-  }
-
-  .populaires-cards .card-subtitle {
-    font-size: 13px;
-  }
-}
-
-/* Small devices (phones, less than 768px) */
-@media (max-width: 767.98px) {
-  /* ... */
 }
