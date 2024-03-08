@@ -415,8 +415,7 @@ h2 {
   box-sizing: border-box;
   display: flex;
   align-items: flex-start;
-  width: calc(65% + 31% + 20px);
-  max-width: 1440px;
+  width: 87rem;
   box-sizing: border-box;
 }
 
