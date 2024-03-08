@@ -380,6 +380,7 @@ h2 {
   display: flex;
   justify-content: space-between;
   margin-top: 33px;
+  gap: 20px;
 }
 
 .carte {
@@ -388,7 +389,7 @@ h2 {
   filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
   display: flex;
   flex-direction: column;
-  width: 20rem;
+  width: 19rem;
   margin: 0px 10px 10px 10px;
 }
 
@@ -404,4 +405,38 @@ h2 {
 
 .activites-cartes .card-title {
   margin: 15px 0px 20px 20px;
+}
+
+/****** Footer ***********/
+
+.flex_footer {
+  background-color: var(--main-bg-color);
+  margin: 30px -10px 0px -10px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: flex-start;
+  width: calc(65% + 31% + 20px);
+  max-width: 1440px;
+  box-sizing: border-box;
+}
+
+.flex_footer nav {
+  margin: 0 17rem 0 1rem;
+  white-space: nowrap;
+}
+
+.flex_footer h3 {
+  margin-bottom: 0;
+}
+
+.flex_footer ul {
+  list-style-type: none;
+  padding: 0;
+  color: black;
+  margin-bottom: 20px;
+}
+
+.flex_footer ul li {
+  margin-right: 20px;
+  margin-top: 10px;
 }
