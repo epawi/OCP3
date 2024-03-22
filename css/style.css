@@ -368,6 +368,7 @@ h2 {
   flex-direction: column;
   align-items: flex-start;
   text-align: left;
+  padding-bottom: 30px;
 }
 
 .activites .section-title {
@@ -417,8 +418,8 @@ h2 {
 }
 
 .flex_footer nav {
-    width: 33%;
-    padding: 15px;
+  width: 33%;
+  padding: 15px;
   white-space: nowrap;
 }
 
@@ -443,39 +444,46 @@ h2 {
 /********** Medium devices (tablets, less/equal than 1024px) *********/
 
 @media screen and (max-width: 1024px) {
+  /* zone de recherche version tablette */
 
-/* zone de recherche version tablette */
-
-    .recherche .section_filtres{
+  .recherche .section_filtres {
     align-items: flex-start;
     flex-flow: column;
     gap: 10px;
-    }
+  }
 
-    .bouton_filtre{
-        gap: 18px; 
-    }
+  .bouton_filtre {
+    gap: 18px;
+  }
 
-/* Hebergements version tablette */
+  /* Hébergements version tablette */
 
   .hebergements-and-populaires {
     flex-direction: column;
   }
 
   .hebergements {
-    width: 90%;
+    width: 100%;
   }
 
-/* Populaires version tablette */  
+  .hebergements-cards .card-title {
+    font-size: 14px;
+  }
+
+  .hebergements-cards .card-subtitle {
+    font-size: 13px;
+  }
+
+  /* Populaires version tablette */
 
   .populaires {
     margin-top: 50px;
-    width: 90%;
+    width: 100%;
   }
 
-.populaires-title{
+  .populaires-title {
     padding-bottom: 0;
-}
+  }
 
   .populaires-cards {
     display: flex;
@@ -495,52 +503,40 @@ h2 {
     font-size: 13px;
   }
 
-  /* Activités version tablette */ 
+  /* Activités version tablette */
 
-.activites {
-    width: 90%; 
-}
-  .activites-cartes img { 
-    height: 11rem;
+  .activites {
     width: 100%;
-}
+  }
 
   .carte {
-    height: 100%;
-    width: 170px;
-}
+    height: 90%;
+    width: 11.5rem;
+  }
 
-  /* Footer version tablette */ 
+  .activites-cartes .card-title {
+    font-size: 14px;
+  }
+
+  .activites-cartes img {
+    height: 11rem;
+    width: 100%;
+  }
+
+  /* Footer version tablette */
 
   .flex_footer {
     box-sizing: border-box;
     display: flex;
     align-items: flex-start;
-    width: 90%;
-  }
-  
-  .flex_footer nav {
-      width: 33%;
-      padding: 15px;
-    white-space: nowrap;
-  }
-  
-  .flex_footer h3 {
-    margin-bottom: 0;
-  }
-  
-  .flex_footer ul {
-    list-style-type: none;
-    padding: 0;
-    color: black;
-    margin-bottom: 20px;
-  }
-  
-  .flex_footer ul li {
-    margin-right: 20px;
-    margin-top: 10px;
+    width: 100%;
   }
 
+  .flex_footer nav {
+    width: 33%;
+    margin-top: 0;
+    white-space: nowrap;
+  }
 }
 
 /************ Small devices (phones, less than 768px) ************0*/
