@@ -419,11 +419,12 @@ h2 {
 
 .flex_footer nav {
   width: 33%;
-  padding: 15px;
+  padding: 10px 25px 15px 15px;
   white-space: nowrap;
 }
 
 .flex_footer h3 {
+    margin-top: 10px;
   margin-bottom: 0;
 }
 
