@@ -587,7 +587,6 @@ h2 {
     border-bottom: 2px solid var(--main-bg-color);
     width: 100%;
     display: block; 
-    margin :0;
   }
   
   .navigation ul li:hover::before, 
@@ -601,11 +600,13 @@ h2 {
     border-bottom-color: var(--main-color);
     width: 100%;
     display: block; 
-    margin: 0;
   }
-
   
   /* Zone de recherche version mobile */
+
+  .recherche{
+    padding: 0 1.25rem;
+  }
 
   /* Hébergements version mobile */
 
