@@ -542,12 +542,11 @@ h2 {
 /************ Small devices (phones, less than 768px) ************0*/
 
 @media screen and (max-width: 768px) {
- 
-    .main-container {
-        padding: 0;
-    }
- 
-    /* Header version mobile */
+  .main-container {
+    padding: 0;
+  }
+
+  /* Header version mobile */
 
   .flex_head {
     display: flex;
@@ -560,21 +559,21 @@ h2 {
     height: auto;
     margin: 1.87rem;
   }
-  
-.navigation{
+
+  .navigation {
     width: 100%;
-    display: flex; 
+    display: flex;
     justify-content: center;
     border-top: none;
     margin: 0;
     gap: 0;
-}
+  }
 
-.navigation ul {
+  .navigation ul {
     display: flex;
     justify-content: space-between;
-    width: 100%; 
-}
+    width: 100%;
+  }
 
   .navigation ul li {
     flex-grow: 1;
@@ -586,10 +585,10 @@ h2 {
     padding: 0.93rem;
     border-bottom: 2px solid var(--main-bg-color);
     width: 100%;
-    display: block; 
+    display: block;
   }
-  
-  .navigation ul li:hover::before, 
+
+  .navigation ul li:hover::before,
   .navigation ul li:focus::before {
     transform: scaleX(0);
   }
@@ -599,12 +598,12 @@ h2 {
     padding: 0.93rem;
     border-bottom-color: var(--main-color);
     width: 100%;
-    display: block; 
+    display: block;
   }
-  
+
   /* Zone de recherche version mobile */
 
-  .recherche{
+  .recherche {
     padding: 0 1.25rem;
   }
 
