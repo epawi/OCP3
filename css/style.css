@@ -15,16 +15,13 @@ body {
   justify-content: center;
   margin: 0;
   font-family: "Raleway", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: auto;
-  font-style: normal;
 }
 
 .grid-container {
   display: grid;
   width: 100%;
   max-width: 1440px;
-  padding: 0 50px;
+  padding: 0 3.12rem;
   box-sizing: border-box;
 }
 
@@ -37,6 +34,10 @@ a {
   text-decoration: none;
 }
 
+ul {
+    list-style: none;
+  }
+
 .section-title {
   margin: 0;
   font-size: 1.3rem;
@@ -46,7 +47,7 @@ a {
   background-color: white;
   border-radius: 1.25rem;
   padding: 5px;
-  filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
+  filter: drop-shadow(0px 0.15rem 0.90rem rgba(0, 0, 0, 0.1));
 }
 
 .card img {
@@ -58,6 +59,10 @@ a {
   font-weight: 700;
 }
 
+.card__subtitle {
+    font-size: 0.87rem;
+  }
+
 .euro {
   font-weight: 700;
 }
@@ -66,30 +71,23 @@ a {
   color: var(--main-bg-color);
 }
 
-fieldset,
-button,
-input {
-  border: none;
-}
-
 /****** Header ***********/
 .flex_head {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  padding-top: 20px;
+  padding-top: 1.7rem;
   background-color: white;
 }
 
 .logo {
-  width: 70px;
+  width: 4rem;
   height: auto;
   padding: 0;
   margin: 0;
 }
 
 .navigation ul {
-  list-style-type: none;
   margin: 0;
   padding: 0;
   color: black;
@@ -124,7 +122,7 @@ input {
 
 /****** Zone de recherche ***********/
 h1 {
-  margin-bottom: 5px;
+  margin-bottom: 0.63rem;
 }
 
 h2 {
@@ -134,49 +132,44 @@ h2 {
 /* Recherche */
 .recherche p {
   margin-top: 0;
-  margin-bottom: 35px;
+  margin-bottom: 2rem;
 }
 
 .barre_de_recherche {
   display: flex;
-  flex-direction: row;
-  width: 100%;
-  align-items: center;
+  justify-content: flex-start;
+  margin-left: -0.2rem;
 }
 
 .barre_de_recherche form {
-  margin-bottom: 10px;
+    display: flex;
+    width: 22rem;
+  margin-bottom: 0.65rem;
 }
 
 .fa-location-dot {
-  height: 20px;
-  padding: 15px 12px 17px 15px;
-  border-top-left-radius: 15px;
-  border-bottom-left-radius: 15px;
-  background-color: var(--main-bg-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 6rem;
+    background-color: var(--main-bg-color);
+    border-radius: 0.93rem 0 0 0.93rem;
+    color: black;
 }
 
 .recherche input {
-  width: 50%;
-  height: 47px;
-  text-align: center;
-  font-weight: bold;
-  border: 1px solid var(--main-bg-color);
-  border-right: none;
-  margin-left: -4px;
-  margin-top: -5px;
-  padding: 25px 0px;
-  box-sizing: border-box;
+    width: 100%;
+    text-align: center;
+    border-top: 0.12rem solid var(--main-bg-color);
+    border-bottom: 0.12rem solid var(--main-bg-color);
+    border-left: 0.12rem solid var(--main-bg-color);
 }
 
 .recherche input::placeholder {
-  color: black;
-  font-size: 16px;
-}
-
-.icone_loc {
-  color: black;
-  font-size: 18px;
+    width: 100%;
+    font-weight: 700;
+    font-size: larger;
+    color: black;
 }
 
 .barre_de_recherche button {
@@ -184,9 +177,8 @@ h2 {
   cursor: pointer;
   font-size: 16px;
   color: white;
-  padding: 14px 15px 16px 15px;
-  border-top-right-radius: 15px;
-  border-bottom-right-radius: 15px;
+  padding: 1rem;
+  border-radius: 0 0.93rem 0.93rem 0;
   background-color: var(--main-color);
   border-color: transparent;
   margin-left: -4px;
@@ -195,6 +187,8 @@ h2 {
 .barre_de_recherche button i {
   display: none;
 }
+
+/* Filtres */
 
 .section_filtres {
   display: flex;
@@ -292,7 +286,6 @@ h2 {
 
 .hebergements-cards img {
   width: 100%;
-  object-fit: cover;
   height: 110px;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
@@ -413,7 +406,6 @@ h2 {
   border-top-right-radius: 20px;
   margin: 0px;
   padding: 0px;
-  object-fit: cover;
 }
 
 .activites-cartes .card-title {
@@ -441,7 +433,6 @@ h2 {
 }
 
 .flex_footer ul {
-  list-style-type: none;
   padding: 0;
   color: black;
   margin-bottom: 20px;
