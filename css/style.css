@@ -123,6 +123,7 @@ h2 {
   font-size: 1.1rem;
 }
 
+/* Recherche */
 .recherche p {
   margin-top: 0;
   margin-bottom: 35px;
@@ -183,6 +184,7 @@ h2 {
   margin-left: -4px;
 }
 
+/* Filtres */
 .section_filtres {
   display: flex;
   flex-direction: column;
@@ -249,7 +251,7 @@ h2 {
   box-sizing: border-box;
 }
 
-/****** Hebergements ***********/
+/* Hébergements */
 .hebergements {
   display: flex;
   width: 65%;
@@ -316,7 +318,7 @@ h2 {
   margin-left: 10px;
 }
 
-/****** Populaires ***********/
+/** Populaires **/
 .populaires {
   width: 32%;
 }
@@ -361,7 +363,7 @@ h2 {
   margin-bottom: 5px;
 }
 
-/****** Activités ***********/
+/****** Activités **********/
 
 .activites {
   display: flex;
@@ -444,7 +446,7 @@ h2 {
 /********** Medium devices (tablets, less/equal than 1024px) *********/
 
 @media screen and (max-width: 1024px) {
-  /* zone de recherche version tablette */
+  /* Recherche version tablette */
 
   .recherche .section_filtres {
     align-items: flex-start;
