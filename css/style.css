@@ -46,8 +46,8 @@ ul {
 .card {
   background-color: white;
   border-radius: 1.25rem;
-  padding: 5px;
-  filter: drop-shadow(0px 0.15rem 0.90rem rgba(0, 0, 0, 0.1));
+  padding: 0.3rem;
+  filter: drop-shadow(0rem 0.15rem 0.90rem rgba(0, 0, 0, 0.1));
 }
 
 .card img {
@@ -339,19 +339,18 @@ padding: 0;
 
 .populaires-cards .card {
   display: flex;
-  margin-top: 33px;
+  margin-top: 1.8rem;
 }
 
 .populaires-cards img {
   width: 33%;
-  height: 136px;
-  border-top-left-radius: 20px;
-  border-bottom-left-radius: 20px;
+  height: 9rem;
+  border-radius: 0.93rem 0 0 0.93rem;
 }
 
 .populaires-cards .card-content {
   width: 67%;
-  padding-left: 15px;
+  padding-left: 1.2rem;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -359,8 +358,8 @@ padding: 0;
 }
 
 .populaires-cards .card-title {
-  margin-top: 10px;
-  margin-bottom: 4px;
+    margin-top: 0.7rem;
+    margin-bottom: 0.5rem;
 }
 
 .populaires-cards .card-subtitle {
@@ -368,7 +367,7 @@ padding: 0;
 }
 
 .populaires-cards .card-rating {
-  margin-bottom: 5px;
+  margin-bottom: 0.2rem;
 }
 
 /****** Activités **********/
@@ -378,42 +377,40 @@ padding: 0;
   flex-direction: column;
   align-items: flex-start;
   text-align: left;
-  padding-bottom: 30px;
+  padding-bottom: 3rem;
 }
 
 .activites .section-title {
-  margin-top: 50px;
-  margin-left: 15px;
+  margin-top: 5rem;
+  margin-left: 1rem;
 }
 
 .activites-cartes {
   display: flex;
   justify-content: space-between;
-  margin-top: 33px;
-  gap: 25px;
+  margin-top: 2.3rem;
+  gap: 2rem;
 }
 
 .carte {
   background-color: white;
-  border-radius: 20px;
-  filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
   display: flex;
   flex-direction: column;
-  width: 305px;
-  margin: 0px 10px 10px 10px;
+  width: 20rem;
+  border-radius: 1.25rem;
+  padding: 0.3rem;
+  filter: drop-shadow(0rem 0.15rem 0.90rem rgba(0, 0, 0, 0.1));
 }
 
 .activites-cartes img {
+    object-fit: cover;
   width: 100%;
   height: 25rem;
-  border-top-left-radius: 20px;
-  border-top-right-radius: 20px;
-  margin: 0px;
-  padding: 0px;
+  border-radius: 1.25rem 1.25rem 0 0;
 }
 
 .activites-cartes .card-title {
-  margin: 15px 0px 20px 20px;
+  margin: 1rem 0 0.9rem 0.8rem;
 }
 
 /****** Footer ***********/
@@ -427,24 +424,22 @@ padding: 0;
 
 .flex_footer nav {
   width: 33%;
-  padding: 10px 25px 15px 15px;
+  padding: 1.2rem 0 1.2rem 1.2rem;
   white-space: nowrap;
 }
 
 .flex_footer h3 {
-  margin-top: 10px;
+  margin-top: 0.3rem;
   margin-bottom: 0;
 }
 
 .flex_footer ul {
   padding: 0;
   color: black;
-  margin-bottom: 20px;
 }
 
 .flex_footer ul li {
-  margin-right: 20px;
-  margin-top: 10px;
+  margin-top: 0.7rem;
 }
 
 /****** Media queries ***********/
