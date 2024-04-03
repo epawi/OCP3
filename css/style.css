@@ -14,6 +14,7 @@ body {
   display: flex;
   justify-content: center;
   margin: 0;
+  padding: 0;
   font-family: "Raleway", sans-serif;
 }
 
@@ -175,7 +176,7 @@ h2 {
   display: inline-block;
   cursor: pointer;
   font-size: 1rem;
-  color: var(--pure-white);
+  color: white;
   padding: 1rem;
   border-radius: 0 0.93rem 0.93rem 0;
   background-color: var(--main-color);
@@ -217,7 +218,7 @@ h2 {
   border-radius: 1.55rem;
   height: 3.12rem;
   border: 0.12rem solid var(--main-bg-color);
-  background-color: var(--pure-white);
+  background-color: white;
   font-size: 1rem;
   padding: 0 1.15rem;
 }
@@ -293,7 +294,7 @@ h2 {
 .hebergements-cards img {
   height: 7rem;
   width: 100%;
-  border: 0.3rem solid var(--pure-white);
+  border: 0.3rem solid white;
   border-radius: 0.93rem 0.93rem 0 0;
 }
 
@@ -394,7 +395,7 @@ h2 {
 }
 
 .activites.carte {
-  background-color: var(--pure-white);
+  background-color: white;
   display: flex;
   flex-direction: column;
   width: 20rem;
@@ -698,7 +699,7 @@ h2 {
   .hebergements {
     width: 100%;
     margin-top: 0.9rem;
-    background-color: var(--pure-white);
+    background-color: white;
   }
 
   .hebergements-cards img {
@@ -747,13 +748,15 @@ h2 {
   footer {
     width: 100%;
     padding: 0;
+    margin: 0;
     box-sizing: border-box;
   }
 
   .flex_footer {
     flex-direction: column;
-    padding: 1.8rem 0 1.8rem 1.8rem;
+    padding: 1.8rem 0;
     margin: 2rem 0 0 0;
-    gap: 2rem;
+    width: 100%;
+    box-sizing: border-box;
   }
 }
