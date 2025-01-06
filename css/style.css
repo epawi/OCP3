@@ -390,14 +390,8 @@ h2 {
   gap: 2rem;
 }
 
-.activites.carte {
-  background-color: white;
-  display: flex;
-  flex-direction: column;
-  width: 20rem;
-  border-radius: 1.25rem;
-  padding: 0.3rem;
-  filter: drop-shadow(0rem 0.15rem 0.9rem rgba(0, 0, 0, 0.1));
+.activites-cartes .card {
+  padding: 0;
 }
 
 .activites-cartes img {
@@ -408,7 +402,7 @@ h2 {
 }
 
 .activites-cartes .card-title {
-  margin: 1rem 0 0.9rem 0.8rem;
+    padding: 0 0.5rem 1rem 0.5rem;
 }
 
 /****** Footer ***********/
