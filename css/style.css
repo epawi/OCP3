@@ -3,6 +3,7 @@
   --main-color: #0065fc;
   --main-bg-color: #f2f2f2;
   --filter-bg-color: #deebff;
+  --border: 0.12rem solid var(--main-bg-color);
 }
 
 /****** General ***********/
@@ -37,6 +38,8 @@ a {
 
 ul {
   list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 .section-title {
@@ -89,8 +92,6 @@ ul {
 }
 
 .navigation ul {
-  margin: 0;
-  padding: 0;
   color: black;
   padding-bottom: 3rem;
 }
@@ -164,9 +165,7 @@ h2 {
 .recherche input {
   width: 100%;
   text-align: center;
-  border-top: 0.12rem solid var(--main-bg-color);
-  border-bottom: 0.12rem solid var(--main-bg-color);
-  border-left: 0.12rem solid var(--main-bg-color);
+  border: var(--border);
 }
 
 .recherche input::placeholder {
@@ -222,7 +221,7 @@ h2 {
   align-items: center;
   border-radius: 1.55rem;
   height: 3.12rem;
-  border: 0.12rem solid var(--main-bg-color);
+  border: var(--border);
   background-color: white;
   font-size: 1rem;
   padding: 0 1.15rem;
@@ -531,11 +530,6 @@ h2 {
 /************ Small devices (phones, less than 768px) ************0*/
 
 @media screen and (max-width: 768px) {
-  .grid-container {
-    padding: 0;
-    box-sizing: border-box;
-  }
-
   body {
     justify-content: flex-start;
   }
@@ -555,7 +549,7 @@ h2 {
   }
 
   .navigation {
-    width: 100%;
+    width: 110%;
     font-size: 1rem;
     display: flex;
     justify-content: center;
@@ -722,7 +716,6 @@ h2 {
   /* Hébergements version mobile */
 
   .hebergements {
-    width: 100%;
     background-color: white;
   }
 
