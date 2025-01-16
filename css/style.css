@@ -1,4 +1,3 @@
-
 /****** Variables ***********/
 :root {
   --main-color: #0065fc;
@@ -6,14 +5,6 @@
   --filter-bg-color: #deebff;
   --border: 0.12rem solid var(--main-bg-color);
 }
-
-/* 
-* {
-    outline: 1px solid pink; 
-  }
-Aide pour le centrage, à retirer quand ça sera bon
-    */
-
 
 /****** General ***********/
 .fa-solid {
@@ -538,13 +529,12 @@ h2 {
 /************ Small devices (phones, less than 768px) ************0*/
 
 @media screen and (max-width: 768px) {
-
-body {
+  body {
     margin: 0;
     padding: 0;
     width: 100%;
-}
-.grid-container {
+  }
+  .grid-container {
     max-width: 100%;
     width: 100%;
     margin: 0 auto;
@@ -556,7 +546,7 @@ body {
     max-width: 100%;
     height: auto;
   }
-  
+
   .flex-container {
     flex-wrap: wrap;
   }
@@ -748,14 +738,14 @@ body {
     width: 95%;
   }
 
-.hebergements-cards {
+  .hebergements-cards {
     display: flex;
     flex-direction: column;
     width: 95%;
     align-items: center;
-}
+  }
 
-.hebergements-cards img {
+  .hebergements-cards img {
     height: 7.75rem;
   }
 
@@ -779,8 +769,7 @@ body {
     padding-left: 1rem;
   }
 
-
- .activites-cartes {
+  .activites-cartes {
     display: flex;
     flex-direction: column;
     width: 100%;
